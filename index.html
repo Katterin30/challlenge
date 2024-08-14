@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Encriptación</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="columna-izquierda">
+            <div class="cuadro-texto">
+                <textarea id="textoEntrada" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            </div>
+            <p>Solo letras minúsculas y sin acentos</p>
+            <div class="botones">
+                <button class="encriptar" onclick="encriptar()">Encriptar</button>
+                <button class="desencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </div>
+        <div class="columna-derecha">
+            <div class="mensaje">
+                <p id="textoSalida">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="botones">
+                <button class="encriptar" onclick="copiar()">Copiar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
