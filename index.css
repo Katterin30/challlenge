@@ -1,54 +1,69 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter';
+    font-style: oblique;
+    font-weight: 400;
+    font-size: 32px;
     background-color: #405D72;
-    color: #333;
-    margin: 40px;
-    padding: 40px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    padding-top: 45px;
+    margin-left: 0px;
+    width: 7%;
 }
 
 .contenedor {
+    padding: 0%;
     display: flex;
-    background-color: #F3F5FC;
+    background-color: #405D72;
     border-radius: 20px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0); /* Sombra */
     overflow: hidden;
-    padding: 10px;
-    margin: 10px auto;
+    padding: 30px;
+    margin: 30px auto;
 }
 
 .columna-izquierda {
-    flex: 2;
+    flex: 6;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-right: 20px;
 }
 
+
 .cuadro-texto textarea {
-    color: #0A3871;
+    background-color: ffffff;
     font-family: 'Inter';
-    font-style: normal;
+    font-style: oblique;
     font-weight: 400;
     font-size: 32px;
+    color: #07447e;
     line-height: 150%;
     width: 100%;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    border-radius: 20px;
+    border: 0cap solid #ccc;
     resize: none;
-    background-color: #f7f9fc;
+}
+
+.cuadro-texto__Aviso{
+   font-size: 25px;
+   color: #FFF8F3;
 }
 
 .botones {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 button {
-    padding: 10px 20px;
+    padding: 15px 25px;
     border: none;
     border-radius: 24px;
     font-size: 1em;
@@ -72,8 +87,8 @@ button.desencriptar {
     align-items: center;
     justify-content: center;
     background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    box-shadow: 0 0 4px rgba(0, 0, 01, 0.65);
     padding: 20px;
 }
 
@@ -85,8 +100,20 @@ button.desencriptar {
     
     color: #6b7280;
     font-family: 'Inter';
-    font-style: normal;
+    font-style: oblique;
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
 }
+
+.footer{
+background-color: #0A3871;
+padding: 24px;
+color: #D8DFE8;
+text-align: center;
+font-family: 'Inter';
+font-style: oblique;
+font-size: 1.5rem;
+font-weight: 400;
+}
+
