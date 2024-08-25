@@ -32,7 +32,7 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 20px;
-    background-color: #;
+    background-color: #405D72;
     border-radius: 10px;
     margin-right: 20px;
 }
@@ -40,6 +40,7 @@ body {
 
 .cuadro-texto textarea {
     background-color: ffffff;
+    opacity: 0.85;
     font-family: 'Inter';
     font-style: oblique;
     font-weight: 400;
@@ -70,7 +71,7 @@ button {
     cursor: pointer;
 }
 
-button.encriptar {
+button.encriptar, .copiar {
     background-color: #0A3871;
     color: #fff;
 }
@@ -115,5 +116,8 @@ font-family: 'Inter';
 font-style: oblique;
 font-size: 1.5rem;
 font-weight: 400;
+}
+a#github{
+    color: #ffffff;
 }
 
