@@ -1,9 +1,18 @@
+
+:root{
+--color-primario: #405D72;
+--color-secundario: #1e3a8a;
+--color-terciario:#FFF8F3;
+
+--fuente-inter:'Inter';
+}
+
 body {
-    font-family: 'Inter';
+    font-family: var(--fuente-inter);
     font-style: oblique;
     font-weight: 400;
-    font-size: 32px;
-    background-color: #405D72;
+    font-size: 2rem;
+    background-color: var(--color-primario);
     height: 100vh;
     box-sizing: border-box;
 }
@@ -18,7 +27,7 @@ body {
 .contenedor {
     padding: 0%;
     display: flex;
-    background-color: #405D72;
+    background-color: var(--color-primario);
     border-radius: 20px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0); /* Sombra */
     overflow: hidden;
@@ -32,19 +41,19 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 20px;
-    background-color: #405D72;
+    background-color: var(--color-primario);
     border-radius: 10px;
     margin-right: 20px;
 }
 
 
 .cuadro-texto textarea {
-    background-color: ffffff;
+    background-color: #ffffff96;
     opacity: 0.85;
-    font-family: 'Inter';
+    font-family: var(--fuente-inter);
     font-style: oblique;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 2rem;
     color: #07447e;
     line-height: 150%;
     width: 100%;
@@ -54,8 +63,8 @@ body {
 }
 
 .cuadro-texto__Aviso{
-   font-size: 25px;
-   color: #FFF8F3;
+   font-size: 1.5rem;
+   color: var(--color-secundario);
 }
 
 .botones {
@@ -67,7 +76,7 @@ button {
     padding: 15px 25px;
     border: none;
     border-radius: 24px;
-    font-size: 1em;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
@@ -78,7 +87,7 @@ button.encriptar, .copiar {
 
 button.desencriptar {
     background-color: #D8DFE8;
-    color: #1e3a8a;
+    color: var(--color-seundario);
 }
 
 .columna-derecha {
@@ -100,19 +109,23 @@ button.desencriptar {
 .mensaje p {
     
     color: #6b7280;
-    font-family: 'Inter';
+    font-family: var(--fuente-inter);
     font-style: oblique;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 2rem;
     line-height: 150%;
 }
+.presentacion__imagen{
+width: 50%;    
+}
+
 
 .footer{
 background-color: #0A3871;
 padding: 24px;
 color: #D8DFE8;
 text-align: center;
-font-family: 'Inter';
+font-family: var(--fuente-inter);
 font-style: oblique;
 font-size: 1.5rem;
 font-weight: 400;
